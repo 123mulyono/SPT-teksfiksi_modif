@@ -7,11 +7,11 @@
 html,body{min-height:100%}
 html{padding:0}
 body{font:1.05em/1.4 "Atkinson Hyperlegible",Arial,Helvetica,sans-serif;padding:20px;margin:0;text-align:left;color:#444;background:#fff}
-input,select,textarea,.feedback{font-family:"Atkinson Hyperlegible",​Arial,Helvetica,sans-serif;font-size:1em}
-.pre-code,.highlighted-code{font-family:"Atkinson Hyperlegible",​Arial,Helvetica,sans-serif;font-size:.9em;border-radius:0}
-a{color:#cc6715}
+input,select,textarea,.feedback{font-family:"Atkinson Hyperlegible",Arial,Helvetica,sans-serif;font-size:1em}
+.pre-code,.highlighted-code{font-family:"Atkinson Hyperlegible",Arial,Helvetica,sans-serif;font-size:.9em;border-radius:0}
+a{color:#1E90ff}
 /* Header is also in single page */
-header#header #headerContent h1{color:#cc6715;border:none;margin-right:75px}
+header#header #headerContent h1{color:#1E90ff;border:none;margin-right:75px}
 #header h1{margin:0;font-size:1em;color:#00843D}
 #emptyHeader,#nodeDecoration{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:16px 25px 16px 10px;border-bottom:3px solid #00843D;margin-bottom:0;background:url(_style_logo.png) no-repeat 100% 50%}
 #header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:16px 25px 16px 0px;border:none;margin-bottom:0;background:url(_style_logo.png) no-repeat 100% 50%}
@@ -68,8 +68,8 @@ section.previousnext{display:none}
 .feedbackbutton,.feedback-button input,.iDevice_buttons input{text-decoration:none;background-color:#0065ab;padding:.3em 1em;color:#fff;transition:background-color 0.4s ease-in-out;display:inline-block;border:none;cursor:pointer}
 .feedbackbutton:hover,.feedback-button input:hover,.iDevice_buttons input:hover{background-color:#004b80}
 
-.emphasis0 .feedbackbutton,.emphasis0 .feedback-button input,.emphasis0 .iDevice_buttons input{background-color:#CC6715}
-.emphasis0 .feedbackbutton:hover,.emphasis0 .feedback-button input:hover,.emphasis0 .iDevice_buttons input:hover{background-color:#9D4C0A}
+.emphasis0 .feedbackbutton,.emphasis0 .feedback-button input,.emphasis0 .iDevice_buttons input{background-color:#1E90ff}
+.emphasis0 .feedbackbutton:hover,.emphasis0 .feedback-button input:hover,.emphasis0 .iDevice_buttons input:hover{background-color:#87CEEB}
 
 .activityIdevice .iDevice_header{background-image:url(icon_udl_exp_actividad.svg)}
 .readingIdevice .iDevice_header{background-image:url(icon_udl_exp_lee.svg)}
@@ -184,45 +184,45 @@ section.previousnext{display:none}
 .FileAttachIdeviceInc a{color:#412866}
 
 /* Carousel */
-.js .exe-carousel h2{color:#7c3f06}
-.fx-carousel-pagination a{background:#ee7f1a;text-decoration:none!important;color:#7c3f06;font-weight:bold}
+.js .exe-carousel h2{color:#1E90ff}
+.fx-carousel-pagination a{background:#1E90ff;text-decoration:none!important;color:#444;font-weight:bold}
 .fx-carousel-pagination a:hover,.fx-carousel-pagination a:focus{text-decoration:none;color:#444}
 .fx-carousel-pagination .fx-current a{background:#73D413;color:#444;text-decoration:none}
 .fx-carousel-content{display:none;background:#fff;padding:1px 15px .5em 15px;border-radius:5px;margin:0 65px;border:1px solid #444}
 
 /* Pagination */
-.js .exe-paginated h2{color:#7c3f06}
-.js .fx-pagination a{background:#ee7f1a;text-decoration:none!important;color:#444!important}
+.js .exe-paginated h2{color:#1E90ff}
+.js .fx-pagination a{background:#1E90ff;text-decoration:none!important;color:#444!important}
 .fx-pagination a:hover,.fx-pagination a:focus{color:#444}
 .js .fx-pagination .fx-current a{background:#73D413;color:#fff;text-decoration:none!important}
 .fx-page-content{background:#fff;border:1px solid #444}
 
 /* Accordion */
 .exe-accordion,.exe-accordion *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.exe-accordion{width:90%;margin:2em 0 2em 5%;border-top:1px solid #cc6715;border-left:1px solid #cc6715;border-right:2px solid #cc6715;border-bottom:2px solid #cc6715}
+.exe-accordion{width:90%;margin:2em 0 2em 5%;border-top:1px solid #1E90ff;border-left:1px solid #1E90ff;border-right:2px solid #1E90ff;border-bottom:2px solid #1E90ff}
 .js .exe-accordion{overflow:hidden;box-shadow:0px 1px 3px rgba(0,0,0,0.25);border-radius:3px;background:#f1f1f1;width:86%;margin:0px auto}
-.fx-accordion-title,.exe-accordion h2{width:100%;padding:15px;display:inline-block;background-color:#fff;transition:all linear 0.15s;color:#cc6715}
-a.fx-accordion-title h2:before{content:'+';font-size:1em;background-color:#cc6715;color:white;transition:transform .5s ease-in;position:relative;left:-15px}
-a.fx-accordion-title h2:hover:before{content:"\25be";font-size:1em;background-color:#cc6715;color:white;transition:transform .5s ease-in;position:relative;left:-15px}
-.fx-accordion-title{border-top:1px solid #cc6715!important}
-.fx-accordion-title-0{border-bottom:1px solid #cc6715}
+.fx-accordion-title,.exe-accordion h2{width:100%;padding:15px;display:inline-block;background-color:#fff;transition:all linear 0.15s;color:#1E90ff}
+a.fx-accordion-title h2:before{content:'+';font-size:1em;background-color:#1E90ff;color:white;transition:transform .5s ease-in;position:relative;left:-15px}
+a.fx-accordion-title h2:hover:before{content:"\25be";font-size:1em;background-color:#1E90ff;color:white;transition:transform .5s ease-in;position:relative;left:-15px}
+.fx-accordion-title{border-top:1px solid #1E90ff!important}
+.fx-accordion-title-0{border-bottom:1px solid #1E90ff}
 #main .exe-accordion h2{margin:0;font-size:1em;font-weight:bold}
 .js .exe-accordion h2{padding:0;border:0;display:block;background:none}
-.js .fx-accordion-title{text-decoration:none;padding:10px 15px 10px 0px;color:#cc6715!important;background-color:#fff!important}
+.js .fx-accordion-title{text-decoration:none;padding:10px 15px 10px 0px;color:#1E90ff!important;background-color:#fff!important}
 .fx-accordion-title.active,.fx-accordion-title:hover{filter:alpha(opacity=90);opacity:.9;text-decoration:none}
-.fx-accordion-section:last-child .fx-accordion-title{border-left:20px solid #cc6715!important}
-.fx-afx-accordion-titleccordion-content{padding:0 15px;display:none;background-color:#f1f1f1;border-top:1px solid #cc6715}
+.fx-accordion-section:last-child .fx-accordion-title{border-left:20px solid #1E90ff!important}
+.fx-afx-accordion-titleccordion-content{padding:0 15px;display:none;background-color:#f1f1f1;border-top:1px solid #1E90ff}
 
 /* Tabs */
 .exe-tabs .fx-tabs a{padding:20px 15px}
 .exe-tabs .fx-tabs a:hover,.exe-tabs .fx-tabs a:focus{text-decoration:none}
-.fx-tabs .fx-current a{background:#f3f3f3;border-top:5px solid #cc6715;padding:15px}
+.fx-tabs .fx-current a{background:#f3f3f3;border-top:5px solid #1E90ff;padding:15px}
 .exe-tabs .fx-tabs a:before{content:'\229C';padding-right:10px}
-.exe-tabs .fx-tab-content{background:#f3f3f3;padding:15px;border-top:5px solid #cc6715;position:relative;z-index:99;bottom:10px}
+.exe-tabs .fx-tab-content{background:#f3f3f3;padding:15px;border-top:5px solid #1E90ff;position:relative;z-index:99;bottom:10px}
 .exe-tabs .fx-default-panel{border-top-left-radius:0}
-.exe-tabs .fx-tabs .fx-current a{background:#f3f3f3;border-top:5px solid #cc6715;padding:15px;color:#cc6715}
-.iDevice_content .exe-tabs .fx-tab-content{background:#f3f3f3;border-top:5px solid #cc6715;padding:15px;color:#444}
-.exe-tabs .fx-tabs a,.exe-tabs .fx-tabs a:before{color:#cc6715}
+.exe-tabs .fx-tabs .fx-current a{background:#f3f3f3;border-top:5px solid #1E90ff;padding:15px;color:#1E90ff}
+.iDevice_content .exe-tabs .fx-tab-content{background:#f3f3f3;border-top:5px solid #1E90ff;padding:15px;color:#444}
+.exe-tabs .fx-tabs a,.exe-tabs .fx-tabs a:before{color:#1E90ff}
 .iDevice_wrapper[class*='em_iDevice_udl_eng'] .exe-tabs .fx-tabs .fx-current a{border-top-color:#549b0d;color:#499113}
 .iDevice_wrapper[class*='em_iDevice_udl_rep'] .exe-tabs .fx-tabs .fx-current a{border-top-color:#784aba;color:#784aba}
 .iDevice_wrapper[class*='em_iDevice_udl_exp'] .exe-tabs .fx-tabs .fx-current a{border-top-color:#0065ab;color:#0065ab}
@@ -234,18 +234,19 @@ a.fx-accordion-title h2:hover:before{content:"\25be";font-size:1em;background-co
 .iDevice_wrapper[class*='em_iDevice_udl_exp'] .exe-tabs .fx-tabs a,.iDevice_wrapper[class*='em_iDevice_udl_exp'] .exe-tabs .fx-tabs a:before{color:#0065ab}
 
 /* Time line */
-div.fx-timeline-container{border-left:2px solid #872C1A!important}
-.fx-timeline-major h2 a{background-color:#872C1A!important}
-.fx-timeline-major h2 a:hover,.fx-timeline-major h2 a:focus{background-color:#9C4938!important}
-.fx-timeline-minor h3 a{color:#872C1A!important}
-.fx-timeline-minor h3 a:after{content:"\21D8";margin-left:10px;color:#872C1A!important}
-.fx-timeline-minor h3 a.open:after{content:"\21D6";margin-left:10px;color:#872C1A!important}
-.fx-timeline-minor h3 a:hover,.fx-timeline-minor h3 a:focus{color:#872C1A!important}
-.fx-timeline-container a.fx-timeline-expand{color:#7c3f06!important;background:#fff!important;border:1px solid #7c3f06;font-weight:bold}
-.fx-timeline-container a.fx-timeline-expand:hover{color:#fff!important;background:#872C1A!important}
+div.fx-timeline-container{border-left:2px solid #1E90ff!important}
+.fx-timeline-major h2 a{background-color:#1E90ff!important}
+.fx-timeline-major h2 a:hover,.fx-timeline-major h2 a:focus{background-color:#87CEEB!important}
+.fx-timeline-minor h3 a{color:#1E90ff!important}
+.fx-timeline-minor h3 a:after{content:"\21D8";margin-left:10px;color:#1E90ff!important}
+.fx-timeline-minor h3 a.open:after{content:"\21D6";margin-left:10px;color:#1E90ff!important}
+.fx-timeline-minor h3 a:hover,.fx-timeline-minor h3 a:focus{color:#1E90ff!imp
+System: ortant}
+.fx-timeline-container a.fx-timeline-expand{color:#1E90ff!important;background:#fff!important;border:1px solid #1E90ff;font-weight:bold}
+.fx-timeline-container a.fx-timeline-expand:hover{color:#fff!important;background:#87CEEB!important}
 
 /* Note */
-.classnote{border:2px solid #444;-webkit-border-bottom-left-radius:20px;-moz-border-radius-bottom-left:20px;border-bottom-left-radius:20px;background:#Fff;padding-left:10px;padding-right:10px;padding-top:5px;margin-top:5px;margin-bottom:20px;width:35.5%;margin-left:63%}
+.classnote{border:2px solid #444;-webkit-border-bottom-left-radius:20px;-moz-border-radius-bottomleft:20px;border-bottom-left-radius:20px;background:#Fff;padding-left:10px;padding-right:10px;padding-top:5px;margin-top:5px;margin-bottom:20px;width:35.5%;margin-left:63%}
 .notetitleex{font:italic bold 14px verdana;cursor:pointer;padding-left:px;padding-bottom:5px;color:#444;border-bottom:none!important}
 
 .exe-download-package-link a{background:#333;color:white}
@@ -291,7 +292,7 @@ li{list-style-position:outside}
 #packageLicense.cc-0{background-position:20px -595px}
 
 /* Hint & Feedback */
-.iDevice_hint_content{border:1px solid #cec486;background:#ecf0f1}
+.iDevice_hint_content{border:1px solid #1E90ff;background:#ecf0f1}
 .iDevice_inner .feedback,
 .iDevice_inner .feedback-right,
 .iDevice_inner .feedback-wrong{background:#f2f2f2;border:1px solid #343333;padding:0 1em;margin:1em 0}
@@ -319,7 +320,7 @@ li{list-style-position:outside}
 	#header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:0px 25px 16px 0px;border:none;margin-bottom:0}
 	.nodeDecoration{padding-top:10px}
 	#headerContent{min-height:51px;background:url(_style_logo.png) no-repeat 100% 20%;padding-bottom:15px}
-	#nodeDecoration,#emptyHeader{color:#000;text-shadow:none;background:none;border:2px solid #CC6715;padding:5px 5px 10px 15px;margin-left:10px}
+	#nodeDecoration,#emptyHeader{color:#000;text-shadow:none;background:none;border:2px solid #1E90ff;padding:5px 5px 10px 15px;margin-left:10px}
 	#nodeDecoration,#header,#emptyHeader{color:#000;text-shadow:none;background:none;border:none;padding:20px 0}
 	#packageLicense{text-align:left;font-size:.8em;padding:0 20px;color:#444;line-height:1em;margin:0 0 25px 0;background:#fff;border-top:1px solid #00843d}
 	#packageLicense p{margin:20px 0}
@@ -357,7 +358,7 @@ li{list-style-position:outside}
 	.fx-accordion-title-0{border-bottom:1px solid #fff;!important}
 	.exe-paginated .fx-pagination,.fx-carousel-pagination .fx-carousel-next,.fx-carousel-pagination .fx-carousel-prev,.fx-carousel-pagination{display:none}
 	.fx-page-content{border:none;margin:0px auto;padding:5px}
-	.exe-paginated h2,.fx-tab-content h2{margin-top:-30px!important;margin-bottom:0px;color:#872C1A}
+	.exe-paginated h2,.fx-tab-content h2{margin-top:-30px!important;margin-bottom:0px;color:#1E90ff}
 	.js .exe-carousel{margin-top:30px}
 	.fx-carousel-content{border:none;display:inline;margin-left:-1.2em;margin-right:0px;padding-top:20px}
 	.js .exe-carousel h2{margin-top:-1.5em}
