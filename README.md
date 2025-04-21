@@ -1,0 +1,1 @@
+# SPT-teksfiksi_modif
